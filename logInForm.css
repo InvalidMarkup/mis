@@ -1,0 +1,131 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 1324px;
+  margin: 0px 0px 0px 20px;
+  padding: 5px 0px 5px 10px;
+  height: 70px;
+}
+
+.nvb {
+  margin: 1px 0px 0px 10px;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  color: Red;
+}
+.navy {
+  background-color: red;
+}
+
+.container img {
+  width: 80px;
+  margin: -92px 18px 20px 100px;
+  padding-bottom: 0px;
+}
+
+
+.container h1 {
+  font-family: 'Roboto Slab', serif;
+  text-align: left;
+  color: #ff8000;
+  font-size: 42px;
+}
+
+
+.container p {
+  font-family: 'Roboto Slab', serif;
+  margin: 0px;
+  padding: 0px;
+  font-size: 30px;
+  color: darkgoldenrod;
+}
+
+.log-in-section a {
+  margin: 1px 0px 0px 17px;
+  padding: 3px;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  color: darkgey;
+}
+
+.log-in-section {
+  width: 320px;
+  height: 320px;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  margin: 70px 300px;
+  transform: translate(-50%, -50);
+  box-sizing: border-box;
+}
+.log-in-section h2 {
+  font-family: 'Roboto Slab', serif;
+  margin: 0px;
+  margin-bottom: 15px;
+  padding: 0 0 10;
+  text-align: center;
+  font-size: 30px;
+}
+
+.inp {
+  color: #fff;
+  width: 90%;
+  margin: 5px 10px;
+  padding:3px;
+  height: 30%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+}
+
+.admin {
+  margin: 0px auto;
+  display: block;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.log-in-section p {
+  font-family: 'Roboto Slab', serif;
+  margin: 0px 10px;
+  margin-top: 10px;
+  padding:1px;
+  padding-bottom: -20px;
+}
+
+
+.btn {
+  width: 92%;
+  margin: 5px 10px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  background: blueviolet;
+  border: none;
+  padding: 5px 15px;
+  transition: 0.8s each;
+  border-radius: 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background:green;
+    color: black;
+}
