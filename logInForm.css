@@ -8,35 +8,56 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .container {
-  max-width: 1140px;
-  width: 100%;
-  margin: 0px 0px 0px 20px;
-  padding: 5px 0px 5px 10px;
-  height: 90px;
+	max-width: 1350px;
+    width: 100%;
+	margin-top: -4%;
+	margin-left: 5px;
+}
+.menu {
+	float: left;
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+}
+.box1 {
+  float: left;
+  width: 50%;
+  margin: 0px;
+  padding: 0px;
 
 }
+.box2 {
+  float: left;
+  width: 50%;
+  height: 148.2px;
+  margin: 0px;
+  padding: 0px;
 
-.container2 img {
-  width: 70px;
-  margin: -92px 0px 20px 100px;
-  padding-bottom: 0px;
 }
-
+.image {
+	margin: auto;
+    margin-left: auto;
+	display: block;
+	width: 20%;
+	height: 100%;
+	margin-left: 80%;
+}
 
 .container h1 {
-  font-family: 'Roboto Slab', serif;
-  text-align: left;
-  color: #ff8000;
-  font-size: 42px;
+	display: inline-block;
+	font-family: 'Roboto Slab', serif;
+	text-align: left;
+	color: #ff8000;
+	font-size: 30px;
 }
 
 
 .container p {
   font-family: 'Roboto Slab', serif;
-  margin: 0px;
-  padding: 0px;
+  margin-top: 0px;
+  padding-top: -15px;
   font-size: 30px;
   color: darkgoldenrod;
 }
